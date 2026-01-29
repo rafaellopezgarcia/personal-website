@@ -57,31 +57,38 @@ function App() {
       <main>
         <section id="home" className="section hero">
           <p className="eyebrow">Personal Website</p>
-          <h1>Introduction</h1>
-          <p className="lede">
-            I am an engineer with experience in robotics, computer vision, and
-            software engineering.
-          </p>
-          <p className="lede">
-            With the intention to pivot my career towards AI research, in
-            September 2025, I started the{" "}
-            <a
-              className="text-link"
-              href="https://www.kuleuven.be/programmes/master-artificial-intelligence?mtm_campaign=masters&mtm_source=google&mtm_medium=cpc&gad_source=1&gad_campaignid=22048691266&gbraid=0AAAAAC4yknnDWFX7B0Xfj6sJ5sJJkD94H&gclid=Cj0KCQiAp-zLBhDkARIsABcYc6u0FMydSh6V2rac38dF76Uy0Mrq0HfkkjJxcZLWJezJPtzE00BxMLIaAiPhEALw_wcB"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Advanced Master in Artificial Intelligence
-            </a>{" "}
-            at KU Leuven.
-          </p>
-          <p className="lede">
-            I have previously done research at university labs, worked across a
-            wide variety of tasks by interning at a stealth startup. My
-            experience in automotive spans from LiDAR sensor simulation to
-            mapping and tracking and from distributed systems to requirements
-            engineering.
-          </p>
+          <div className="hero-layout">
+            <div className="hero-text">
+              <h1>Introduction</h1>
+              <p className="lede">
+                I am an engineer with experience in robotics, computer vision,
+                and software engineering.
+              </p>
+              <p className="lede">
+                With the intention to pivot my career towards AI research, in
+                September 2025, I started the{" "}
+                <a
+                  className="text-link"
+                  href="https://www.kuleuven.be/programmes/master-artificial-intelligence?mtm_campaign=masters&mtm_source=google&mtm_medium=cpc&gad_source=1&gad_campaignid=22048691266&gbraid=0AAAAAC4yknnDWFX7B0Xfj6sJ5sJJkD94H&gclid=Cj0KCQiAp-zLBhDkARIsABcYc6u0FMydSh6V2rac38dF76Uy0Mrq0HfkkjJxcZLWJezJPtzE00BxMLIaAiPhEALw_wcB"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Advanced Master in Artificial Intelligence
+                </a>{" "}
+                at KU Leuven.
+              </p>
+              <p className="lede">
+                I have previously done research at university labs, worked
+                across a wide variety of tasks by interning at a stealth
+                startup. My experience in automotive spans from LiDAR sensor
+                simulation to mapping and tracking and from distributed systems
+                to requirements engineering.
+              </p>
+            </div>
+            <div className="hero-photo">
+              <img src="/personal_photo.png" alt="Rafael Lopez Garcia" />
+            </div>
+          </div>
         </section>
 
         <section id="cv" className="section">
