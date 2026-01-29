@@ -1,43 +1,7 @@
 const NAV_ITEMS = [
   { id: "home", label: "Home" },
   { id: "cv", label: "CV" },
-  { id: "projects", label: "Projects" },
-  { id: "blog", label: "Blog" },
   { id: "contact", label: "Contact" },
-];
-
-const PROJECTS = [
-  {
-    title: "Project One",
-    description:
-      "Short description of a project that highlights the problem, approach, and result.",
-    status: "Featured",
-  },
-  {
-    title: "Project Two",
-    description:
-      "Short description of a second project with a focus on impact or learning.",
-    status: "In progress",
-  },
-  {
-    title: "Project Three",
-    description:
-      "Short description of a third project with a link to the repository or demo.",
-    status: "Open source",
-  },
-];
-
-const BLOG_POSTS = [
-  {
-    title: "Why I build",
-    date: "Jan 2026",
-    summary: "A short note on craft, curiosity, and the work I want to do.",
-  },
-  {
-    title: "Systems that scale",
-    date: "Dec 2025",
-    summary: "Thoughts on designing reliable software and teams.",
-  },
 ];
 
 function App() {
@@ -61,10 +25,6 @@ function App() {
             <div className="hero-text">
               <h1>Introduction</h1>
               <p className="lede">
-                I am an engineer with experience in robotics, perception,
-                and software engineering.
-              </p>
-              <p className="lede">
                 With the intention to pivot my career towards AI research, in
                 September 2025, I started the{" "}
                 <a
@@ -76,6 +36,15 @@ function App() {
                   Advanced Master in Artificial Intelligence
                 </a>{" "}
                 at KU Leuven.
+              </p>
+              <p className="lede">
+                I have experience in robotics, perception,
+                and software engineering. I have done research at university labs,
+                interned at a stealth startup, and worked in the automotive industry.
+              </p>
+
+              <p className="lede">
+                I have lived in Mexico, Germany, France, Japan, and currently in Belgium.
               </p>
             </div>
             <div className="hero-photo">
@@ -391,35 +360,6 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-
-        <section id="projects" className="section">
-          <h2>Projects</h2>
-          <div className="grid">
-            {PROJECTS.map((project) => (
-              <article key={project.title} className="card">
-                <div className="card-meta">{project.status}</div>
-                <h3>{project.title}</h3>
-                <p>{project.description}</p>
-                <a className="text-link" href="#contact">
-                  Request details
-                </a>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <section id="blog" className="section">
-          <h2>Blog</h2>
-          <div className="stack">
-            {BLOG_POSTS.map((post) => (
-              <article key={post.title} className="post">
-                <div className="post-meta">{post.date}</div>
-                <h3>{post.title}</h3>
-                <p>{post.summary}</p>
-              </article>
-            ))}
           </div>
         </section>
 
