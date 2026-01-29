@@ -57,28 +57,38 @@ function App() {
       <main>
         <section id="home" className="section hero">
           <p className="eyebrow">Personal Website</p>
-          <h1>Building thoughtful software with clarity and care.</h1>
+          <h1>Introduction</h1>
           <p className="lede">
-            I am a software engineer focused on building reliable systems,
-            elegant interfaces, and calm developer experiences. This site is a
-            home for my work, writing, and ways to collaborate.
+            I am an engineer with experience in robotics, computer vision, and
+            software engineering.
           </p>
-          <div className="hero-actions">
-            <a className="button primary" href="#projects">
-              View projects
-            </a>
-            <a className="button ghost" href="#contact">
-              Get in touch
-            </a>
-          </div>
+          <p className="lede">
+            With the intention to pivot my career towards AI research, in
+            September 2025, I started the{" "}
+            <a
+              className="text-link"
+              href="https://www.kuleuven.be/programmes/master-artificial-intelligence?mtm_campaign=masters&mtm_source=google&mtm_medium=cpc&gad_source=1&gad_campaignid=22048691266&gbraid=0AAAAAC4yknnDWFX7B0Xfj6sJ5sJJkD94H&gclid=Cj0KCQiAp-zLBhDkARIsABcYc6u0FMydSh6V2rac38dF76Uy0Mrq0HfkkjJxcZLWJezJPtzE00BxMLIaAiPhEALw_wcB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Advanced Master in Artificial Intelligence
+            </a>{" "}
+            at KU Leuven.
+          </p>
+          <p className="lede">
+            I have previously done research at university labs, worked across a
+            wide variety of tasks by interning at a stealth startup. My
+            experience in automotive spans from LiDAR sensor simulation to
+            mapping and tracking and from distributed systems to requirements
+            engineering.
+          </p>
         </section>
 
         <section id="cv" className="section">
-          <h2>CV</h2>
           <div className="cv-card">
             <div className="cv-header">
               <div>
-                <h3>Rafael Lopez Garcia</h3>
+                <h3>CV</h3>
                 <p className="cv-title">
                   Applied AI Researcher — Reinforcement Learning &amp;
                   Multimodal Learning
@@ -161,7 +171,15 @@ function App() {
                   <div>
                     <strong>Robotics Research Intern</strong>
                     <div className="cv-item-sub">
-                      Stanley Robotics · Paris, France
+                      <a
+                        className="text-link"
+                        href="https://www.stanley-robotics.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Stanley Robotics
+                      </a>{" "}
+                      · Paris, France
                     </div>
                   </div>
                   <span className="cv-date">Jul 2015 – Jan 2016</span>
@@ -226,7 +244,15 @@ function App() {
                   <div>
                     <strong>Runtime Framework Engineer</strong>
                     <div className="cv-item-sub">
-                      Woven by Toyota · Tokyo, Japan
+                      <a
+                        className="text-link"
+                        href="https://woven.toyota/en/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Woven by Toyota
+                      </a>{" "}
+                      · Tokyo, Japan
                     </div>
                   </div>
                   <span className="cv-date">Oct 2021 – Jul 2025</span>
@@ -248,7 +274,15 @@ function App() {
                   <div>
                     <strong>Algorithm Engineer</strong>
                     <div className="cv-item-sub">
-                      Aptiv · Wuppertal, Germany
+                      <a
+                        className="text-link"
+                        href="https://www.aptiv.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Aptiv
+                      </a>{" "}
+                      · Wuppertal, Germany
                     </div>
                   </div>
                   <span className="cv-date">Jun 2019 – Aug 2021</span>
@@ -266,7 +300,15 @@ function App() {
                   <div>
                     <strong>Software and Algorithm Engineer</strong>
                     <div className="cv-item-sub">
-                      Continental · Queretaro, Mexico
+                      <a
+                        className="text-link"
+                        href="https://www.continental.com/en/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Continental
+                      </a>{" "}
+                      · Queretaro, Mexico
                     </div>
                   </div>
                   <span className="cv-date">Jul 2016 – May 2019</span>
