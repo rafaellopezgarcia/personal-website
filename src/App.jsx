@@ -61,7 +61,7 @@ function App() {
             <div className="hero-text">
               <h1>Introduction</h1>
               <p className="lede">
-                I am an engineer with experience in robotics, computer vision,
+                I am an engineer with experience in robotics, perception,
                 and software engineering.
               </p>
               <p className="lede">
@@ -76,13 +76,6 @@ function App() {
                   Advanced Master in Artificial Intelligence
                 </a>{" "}
                 at KU Leuven.
-              </p>
-              <p className="lede">
-                I have previously done research at university labs, worked
-                across a wide variety of tasks by interning at a stealth
-                startup. My experience in automotive spans from LiDAR sensor
-                simulation to mapping and tracking and from distributed systems
-                to requirements engineering.
               </p>
             </div>
             <div className="hero-photo">

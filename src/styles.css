@@ -94,7 +94,7 @@ a {
 .hero-photo img {
   width: 100%;
   max-width: 200px;
-  border-radius: 6px;
+  border-radius: 0;
 }
 
 .eyebrow {
